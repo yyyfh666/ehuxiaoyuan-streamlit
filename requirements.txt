@@ -1,0 +1,9 @@
+# e护校园 · Streamlit 依赖
+# 端侧规则引擎零依赖，只装 streamlit 就能跑（无需联网、无需 API Key）；
+# openai 仅在访客自备 Key 使用「大模型研判」时才被延迟导入。
+#
+# streamlit 上限锁 <2：本项目已按 1.64 的 API 写（width="stretch"），
+# 不锁的话云端拉到 2.x 可能因 API 变更导致页面崩掉。
+
+streamlit>=1.64,<2
+openai>=1.30

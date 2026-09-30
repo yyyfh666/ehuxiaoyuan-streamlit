@@ -1,0 +1,12 @@
+# ---- 绝不能提交：含 API Key ----
+.streamlit/secrets.toml
+.env
+
+# ---- Python 缓存 ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ---- 运行日志 ----
+*.log
